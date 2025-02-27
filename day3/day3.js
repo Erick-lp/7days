@@ -5,7 +5,7 @@ let tecnologiaFront;
 let otraTecnologia = [];
 
 function lenguajeExtra(area, lenguaje){
-    alert(`Elegiste la opción de ${area} y ${lenguaje}`);
+    alert(`Elegiste la opción de ${area} y el lenguaje ${lenguaje}`);
     do{
         confirmar = confirm("¿Hay alguna otra tecnología que te gustaría aprender?");
         if(confirmar === true){
